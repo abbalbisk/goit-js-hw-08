@@ -103,7 +103,7 @@ ulElems.addEventListener('click', e => {
 
 function openModal(imageUrl) {
   const instance = basicLightbox.create(`
-        <img src="${imageUrl}" width="1112" heigth="640" />
+        <img src="${imageUrl}" width="1112" height="640" />
         
     `);
   instance.show();
